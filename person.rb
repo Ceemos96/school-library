@@ -7,7 +7,7 @@ class Person < Nameable
   attr_reader :id
   attr_accessor :name, :age, :rentals
 
-  def initialize(age, name = 'Unknown', parent_permission: true)
+  def initialize(age, name, parent_permission)
     super()
     @id = rand 1000
     @name = name
@@ -34,11 +34,3 @@ class Person < Nameable
     @age >= 18
   end
 end
-
-# test class decorator
-person = Person.new(22, 'maximilianus')
-person.correct_name
-capitalized_person = CapitalizeDecorator.new(person)
-capitalized_person.correct_name
-capitalized_trimmed_person = TrimmerDecorator.new(capitalized_person)
-puts capitalized_trimmed_person.correct_name
