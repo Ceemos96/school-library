@@ -5,14 +5,13 @@ require_relative '../classroom'
 describe Student do
   before :each do
     @classroom = Classroom.new('A123')
-    @student = Student.new(23, 'Student1', true, @classroom)
+    @student = Student.new(23, @classroom, 'Student1')
   end
 
   context "When testing the 'Student' class" do
     it 'should return the correct data' do
       expect(@student.age).to eq 23
       expect(@student.name).to eq 'Student1'
-      expect(@student.parent_permission).to eq true
       expect(@student.classroom.label).to eq 'A123'
     end
 

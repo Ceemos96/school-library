@@ -12,7 +12,6 @@ describe Person do
     it 'should return correct data for new object' do
       expect(@person_above_age_no_permission.age).to eq 23
       expect(@person_above_age_no_permission.name).to eq 'TestName1'
-      expect(@person_above_age_no_permission.parent_permission).to eq false
       expect(@person_above_age_no_permission.rentals).to be_empty
     end
 
