@@ -61,6 +61,13 @@ sh
 - Twitter: [@twitterhandle](https://twitter.com/ceemos_dev)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/suleiman-olaide)
 
+👤 **Degisew**
+
+- Location: Ethiopia
+- GitHub: [@jegisew21](https://github.com/degisew)
+- Twitter: [@DJ_etiya](https://twitter.com/@DJ_etiya)
+- LinkedIn: [jegisew21](https://www.linkedin.com/in/degisew-mengist)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
